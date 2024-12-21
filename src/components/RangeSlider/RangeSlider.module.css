@@ -1,0 +1,32 @@
+.slider{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.sliderContainer {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.slider {
+  flex: 1;
+  margin-right: 10px;
+}
+.value {
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.dropdown {
+    margin-inline: 5px;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+
+
+
+
+

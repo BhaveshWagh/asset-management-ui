@@ -1,0 +1,26 @@
+.mainContent {
+  margin: 20px;
+  margin-left: 280px; /* Matches sidebar width */
+  padding: 20px;
+  background-color: #ffffff;
+  height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+hr {
+  margin-top: 5px;
+  height: 3px;
+  background-color: #e8eef0;
+  border: none;
+}
