@@ -5,24 +5,22 @@ const Sidebar = () => {
   const [topOffset, setTopOffset] = useState(0);
 
   useEffect(() => {
-    // Get heights of navbar and date selection bar
     const navbar = document.querySelector(".navbar");
     const dateSelectionBar = document.querySelector(".date-selection");
 
     const navbarHeight = navbar ? navbar.offsetHeight : 0;
-    const dateSelectionHeight = dateSelectionBar ? dateSelectionBar.offsetHeight : 0;
+    const dateSelectionHeight = dateSelectionBar
+      ? dateSelectionBar.offsetHeight
+      : 0;
 
-    // Calculate combined height
     setTopOffset(navbarHeight + dateSelectionHeight);
-   
   }, []);
-  
+
   return (
     <div
       className="sidebar"
       style={{
-        top: `${topOffset}px`, // Adjust sidebar dynamically
-        // height: `calc(100vh - ${topOffset}px)`, // Adjust height dynamically
+        top: `${topOffset}px`,
       }}
     >
       <ul className="sidebar-nav">

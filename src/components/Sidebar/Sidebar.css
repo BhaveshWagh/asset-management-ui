@@ -1,19 +1,8 @@
-/* Sidebar Container */
-
-/* Define combined height of navbar + date selection bar */
-/* :root { */
-/* --total-bar-height: 100vh; */
-/* Replace with the combined fixed height */
-/* } */
-
 .sidebar {
   position: absolute;
-  /* top: var(--total-bar-height); */
-  /* Sidebar starts below the combined bars */
   left: 0;
   width: 250px;
   height: 100vh;
-
   background-color: #e9f0ff;
   padding: 20px 15px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -21,7 +10,7 @@
   flex-direction: column;
 }
 
-/* Sidebar Header */
+
 .sidebar-header {
   font-size: 20px;
   font-weight: bold;
@@ -29,7 +18,7 @@
   text-align: center;
 }
 
-/* Navigation Items */
+
 .sidebar-nav {
   list-style-type: none;
   padding: 0;

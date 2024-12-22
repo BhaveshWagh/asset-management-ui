@@ -33,8 +33,8 @@ function BarCharts() {
         height={500}
         width={1000}
         borderRadius={100}
-        xAxis={[{scaleType:'band', data:labels }]} // Set custom labels for the x-axis
-        series={series} // Use the provided series data
+        xAxis={[{scaleType:'band', data:labels }]} //  Custom labels for the x-axis
+        series={series} // 
       />
     </Box>
   );
