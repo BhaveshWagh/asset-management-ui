@@ -7,8 +7,8 @@ const Navbar = () => {
       <div className="navbar-logo">
         <img src="/path-to-logo.png" alt="MFRF Logo" className="logo" />
         <div className="navbar-title">
-          <h1>MFRF</h1>
-          <span>Asset Management</span>
+          <h1 className="heading">MFRF</h1>
+          <span className="sub-heading">Asset Management</span>
         </div>
       </div>
       <div className="navbar-icons">

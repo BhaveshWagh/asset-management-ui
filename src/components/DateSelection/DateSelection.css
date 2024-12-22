@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: white;
-  padding: 10px;
+  padding: 17px;
   border-bottom: 1px solid #ccc;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   position: relative;
@@ -11,19 +11,28 @@
 
 .date-field {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
 }
+/* border-right: 1px solid black; */
 
 .date-label {
   display: block;
   font-size: 12px;
-  color: #999;
+  color: #007bff;
+}
+.calendar-icon{
+  color: #007bff;
 }
 
 .export-button {
-  background-color: #007bff;
-  color: white;
+  background-color: white;
+  color: #007bff;
   border: none;
   padding: 10px 20px;
+  border: 1px solid #007bff;
   border-radius: 5px;
   cursor: pointer;
   display: flex;
